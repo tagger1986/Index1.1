@@ -2,7 +2,7 @@
 package index;
 //import java.util.Scanner;
 
-public class Program{
+public class TestMain{
   public static Index[]indeksi= new Index[100];
   private static int pozicija = 0;
    
@@ -137,7 +137,7 @@ System.out.println("Student "+zaPromenu.getGodina()+"/"+zaPromenu.getBroj()+" je
     ponovniUpis(indeksi[5]); // ucitava informacije 5. indeksa u bazi
        
         
-    ispis();
+//    ispis();
         
     System.out.println("Najpopularniji smer na fakultetu je "+najpopularnijiSmer()+".");
         
